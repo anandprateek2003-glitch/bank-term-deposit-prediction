@@ -1,0 +1,25 @@
+# Python and Jupyter Notebook .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Data files
+*.csv
+*.pkl
+
+# macOS specific files
+.DS_Store
+
+# Other common data science artifacts
+*.h5
+*.xlsx
+*.json
+*.parquet
